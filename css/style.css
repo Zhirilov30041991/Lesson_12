@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Bold.eot');
+    src: url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Bold.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Bold.woff') format('woff'),
+        url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.eot');
+    src: url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Oswald-Regular.woff2') format('woff2'),
+        url('../fonts/Oswald-Regular.woff') format('woff'),
+        url('../fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Light.eot');
+    src: url('../fonts/Oswald-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Oswald-Light.woff2') format('woff2'),
+        url('../fonts/Oswald-Light.woff') format('woff'),
+        url('../fonts/Oswald-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+div, img, form,a, p, button, time{
+	box-sizing: border-box;
+} 
+.container{
+	max-width: 59.0625rem;
+	margin: auto;
+	padding: 0 0.9375rem;
+}
+h1{
+	font-size: 1.875rem;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	padding-bottom: 1.9375rem;
+}
+.registration{
+	background-color: #000;
+}
+.registration_time{
+	display: flex;
+	align-items: center;
+	padding-top: 1.9375rem;
+	padding-bottom: 1.9375rem;
+}
+.registration time{
+	color: #fff;
+	font-size: 3rem;
+	padding-right: 2.8125rem;
+}
+.registration p{
+	color: #fff;
+	font-size: 1.125rem;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+}
+.opening{
+	background-color: #c4c4c4;
+	border-top: 0.25rem solid #fff;
+}
+.program{
+	padding-top: 2rem;
+	padding-bottom: 2.1875rem;
+}
+.square{
+	width: 210px;
+	height: 210px;
+	background: #000;	
+}
+.open{
+	display: flex;
+}
+.open:nth-child(1){
+	padding-bottom: 3rem;
+}
+.program_open{
+	display: flex;
+	padding-top: 2rem;
+	line-height: 0;
+}
+.time time{
+	color: #000;
+	font-size: 3rem;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	padding-left: 0.875rem;
+}
+.we {
+	padding-left: 2.375rem;
+}
+.we h3{
+	color: #000;
+	font-size: 1.5rem;
+	font-family: 'Oswald';
+	padding-bottom: 20px;
+}
+.we p{
+	font-size: 1.125rem;
+	font-family: 'Oswald';
+}
+.break time{
+	font-weight: bold;
+}.coffee{
+	padding-bottom: 0;
+}
+.open_one{
+	display: flex;
+}
+.registration:nth-child(8){
+	border-bottom: 0.25rem solid #fff;
+}
+.main_title{
+	display: flex;
+	padding-bottom: 1.875rem;
+}
+.main_marketing{
+	padding-left: 9.375rem;
+}
+.main_marketing h2{
+	font-size: 1.5rem;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+.main_marketing p{
+	font-size: 1rem;
+	font-family: 'Oswald';
+	font-weight: 300;
+}
+.main_marketing span{
+	font-size: 1rem;
+	font-family: 'Oswald';
+	font-weight: normal;
+}
+.squere_main{
+	display: flex;
+	align-items: center;
+	padding-bottom: 1.875rem;
+}
+.squere_main time{
+	font-size: 1.5rem;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+}
+.squere_line{
+	display: flex;
+	position: relative;
+}
+.squere_line:after{
+	display: inline-block;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+}
+.square_center{
+	width: 120px;
+	height: 120px;
+	background: #000;
+}
+.square_center:nth-child(3){
+	margin-left: 12.5rem;
+}
+.square_center:nth-child(2){
+	margin-left: 10.9375rem;
+}
+.square_center:nth-child(1){
+	margin-left: 5.625rem;
+}
+.main_marketing_author h2{
+	font-family: 'Oswald';
+	width: 10.9375rem;
+	padding-bottom: 1.25rem;
+}
+.main_marketing_author p{
+	font-family: 'Oswald';
+	font-size: 1.125rem;
+	font-weight: 300;
+	width: 10.9375rem;
+}
+.main_marketing_author:nth-child(1){
+	margin-left: 9.1875rem;
+}
+.main_marketing_author:nth-child(2){
+	margin-left: 7rem;
+}
+.main_marketing_author:nth-child(3){
+	margin-left: 9.375rem;
+}
+.finish{
+	padding-top: 4.375rem;
+	padding-bottom: 7.5rem;
+}
+.square_luggage{
+	display: flex;
+	width: 200px;
+	height: 200px;
+	background:white;
+	text-align: center;
+	border: 1px solid #000;
+	margin-right: 0.875rem;
+}
+.square_luggage img{
+	width: 180px;
+	height: 21px;
+	text-align: center;
+	margin: auto;
+}
+.intense{
+	display: flex;
+}
+.intense time{
+	font-size:2.5rem;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	padding-right: 2.25rem;
+	margin-top: 2rem;
+}
+.intense span{
+	font-size: 1.5rem;
+	font-family: 'Oswald';
+	font-weight: normal;
+	line-height: 2;
+}
+.intense p{
+	font-size: 1.125rem;
+	font-family: 'Oswald';
+	font-weight: normal;
+	margin-top: 2rem;
+}
+.intense_time{
+	margin-top: 20px;
+}
